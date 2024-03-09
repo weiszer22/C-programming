@@ -61,15 +61,15 @@ class Teacher {
 
 int main() {
   // Create some students
-  Student student1("John Doe", 1);
-  Student student2("Jane Doe", 2);
+  Student student1("Weiszer", 1);
+  Student student2("Marion", 2);
 
   // Create a teacher and assign some students
-  Teacher teacher("Teacher Doe", {student1, student2});
+  Teacher teacher("Teacher Sam", {student1, student2});
 
   // Add some feedback
   teacher.AddFeedback(1, Feedback("Good job!", true));
-  teacher.AddFeedback(2, Feedback("Keep practicing!", false));
+  teacher.AddFeedback(2, Feedback("Keep practicing", false));
 
   // View the feedback
   teacher.ViewFeedback();
