@@ -55,12 +55,12 @@ public:
 };
 
 int main() {
-    Student* s1 = new Student(1, "John Doe", "Computer Science");
-    Student* s2 = new Student(2, "Jane Doe", "Electronics");
-    Student* s3 = new Student(3, "Mark Smith", "Automotive");
+    Student* s1 = new Student(1, "Weiszer", "Computer Science");
+    Student* s2 = new Student(2, "Marion", "Electronics");
+    Student* s3 = new Student(3, "Maziga", "Automotive");
 
-    Teacher* t1 = new Teacher(1, "Ms. Johnson");
-    Teacher* t2 = new Teacher(2, "Mr. Williams");
+    Teacher* t1 = new Teacher(1, "Md. Nancy");
+    Teacher* t2 = new Teacher(2, "Mr. Phillip");
 
     t1->addStudent(s1);
     t1->addStudent(s2);
