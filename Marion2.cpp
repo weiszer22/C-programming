@@ -53,15 +53,15 @@ int main() {
     Teacher teacher;
 
     // Add students
-    teacher.addStudent(Student("John Doe", 1));
-    teacher.addStudent(Student("Jane Doe", 2));
+    teacher.addStudent(Student("Weiszer", 1));
+    teacher.addStudent(Student("Marion", 2));
 
     // Add feedback
     teacher.addFeedback(Feedback("Great job!", true, 1));
-    teacher.addFeedback(Feedback("Keep up the good work!", false, 2));
+    teacher.addFeedback(Feedback("Good work!", false, 2));
 
     // Modify feedback
-    Feedback modifiedFeedback("Keep up the good work!", true, 2);
+    Feedback modifiedFeedback("Good work!", true, 2);
     teacher.modifyFeedback(0, modifiedFeedback);
 
     // View students
